@@ -1,5 +1,5 @@
-# EX NO:8
-<P align='center'> <b>D-FLIPDLOP-NEGEDGE</b>
+# EX NO:7
+<P align='center'> <b>JKFLIPFLOP-USING-IF-ELSE</b>
 
 **DATE:**
 
@@ -37,19 +37,17 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
- 1.Define Module: Define a Verilog module for the D flip-flop with inputs (D, CLK) and outputs (Q, Q_bar).
+step-1 Go to quartus software.
 
-2.Declare Inputs and Outputs: Declare input and output ports for the module.
+step-2 Set new environment.
 
-3.Implement Flip-Flop Logic: Write Verilog code to implement the D flip-flop logic based on its functional table. Use a synchronous always @(posedge CLK) block to trigger the flip-flop on the positive edge of the clock signal.
+step-3 Type the code to implement SR flipflop using verilog and validating their functionality using their functional tables.
 
-4.Simulate Using Testbench: Write a Verilog testbench to simulate the behavior of the D flip-flop under different input conditions.
+step-4 Run the program.
 
-5.Apply Input Stimuli: In the testbench, apply various combinations of input stimuli (D, CLK) to cover all possible input states.
+step-5 Give inputs in the waveform table .
 
-6.Verify Output Behavior: Verify that the output behavior of the D flip-flop matches the expected behavior defined by its functional table.
-
-7.Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
+step-6 Run the program.
 
 **Program for flipflops and verify its truth table in quartus using Verilog programming.**
 
@@ -59,18 +57,21 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **PROGRAM**
 
-![328091497-92d09d61-07ed-4f89-a532-9103bda71ded](https://github.com/monish1545/JKFLIPFLOP-USING-IF-ELSE/assets/166646660/9c4bc821-950c-45b7-8c7f-1ee076108147)
+![328088425-5a389273-3283-4fb9-840d-aeb885a94841](https://github.com/monish1545/JKFLIPFLOP-USING-IF-ELSE/assets/166646660/6011809e-a93d-4203-83b6-e2d70e7b7808)
 
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-![328091153-2bf826ba-cbc1-4fdf-ad56-8a874e78b4dc](https://github.com/monish1545/JKFLIPFLOP-USING-IF-ELSE/assets/166646660/295574f6-8a21-4564-b1e1-552bfc22b9e7)
+![328088431-8c1f60dc-9aca-4a58-bc6b-f0d9ab2d89c3](https://github.com/monish1545/JKFLIPFLOP-USING-IF-ELSE/assets/166646660/650131a7-6ca8-4a9f-b8b5-64264956f46f)
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![328091127-077b4ced-3f89-4740-a308-68934a85c06d](https://github.com/monish1545/JKFLIPFLOP-USING-IF-ELSE/assets/166646660/05b8cb31-47a5-466a-8abd-29146bd54aee)
+![328088434-124bfc38-545f-469a-a796-338469f157f8](https://github.com/monish1545/JKFLIPFLOP-USING-IF-ELSE/assets/166646660/12674fda-2465-4c34-aecc-88e11d9a8177)
+
 
 **RESULTS**
 
-Thus the program to implement a D flipflop using verilog and validating their functionality using their functional tables.
+Thus,the code executed successfully.
+
+
